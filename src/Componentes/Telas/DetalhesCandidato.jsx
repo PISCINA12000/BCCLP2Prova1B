@@ -6,7 +6,7 @@ export default function DetalhesCandidato(props) {
         <Container>
             <h1>Detalhes Candidato</h1>
             {
-                <Candidato candidato={props.candidato}></Candidato>
+                <Candidato candidato={props.candidato}/>
             }
         </Container>
     );
